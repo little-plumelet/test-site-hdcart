@@ -1,0 +1,26 @@
+
+.header {
+  min-height: 110px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+  background-color: rgb(41, 41, 41);
+  padding: 1rem 6rem;
+}
+
+.logo {
+  font-size: 3rem;
+  color: white;
+  cursor: pointer;
+  margin: 1rem 0;
+}
+
+@media screen and (max-width: 600px) {
+  .header {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 2rem
+  }
+}
