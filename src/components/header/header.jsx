@@ -1,6 +1,5 @@
 import { SearchOutlined, UserOutlined } from '@ant-design/icons';
 import { Button, Space } from 'antd';
-
 import React from 'react';
 import { Link } from 'gatsby';
 import {
@@ -12,11 +11,11 @@ export function Header() {
 
   return (
     <header className={header}>
-        <Link to="/home" style={{textDecoration: 'none'}}>
+        <Link to="/" style={{textDecoration: 'none'}}>
           <h1 className={logo}>Wow Goodies</h1>
         </Link>
         <Space size="middle">
-          <Link to="/home">Home</Link>
+          <Link to="/">Home</Link>
           <Link to="/about">About</Link>
           <Link to="/contacts">Contacts</Link>
         </Space>
