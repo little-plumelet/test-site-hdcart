@@ -5,7 +5,7 @@ export const Layout = ({ children }) => {
   return (
     <>
     <Header />
-    <main> 
+    <main style={{padding: '0 1rem'}}> 
       {children}
     </main>
     </>
