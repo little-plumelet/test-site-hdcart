@@ -1,0 +1,11 @@
+.priceBlock {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.footer { 
+  display: flex;
+  justify-content: flex-end;
+  padding-top: 2rem;
+}
